@@ -9,7 +9,7 @@
 
     <groupId>com.github.dim777</groupId>
     <artifactId>mongobee-1</artifactId>
-    <version>0.14-SNAPSHOT</version>
+    <version>0.14</version>
 
     <licenses>
         <license>
