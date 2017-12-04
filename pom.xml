@@ -7,7 +7,7 @@
     <description>MongoDB data migration tool for Java</description>
     <url>https://github.com/mongobee/mongobee</url>
 
-    <groupId>com.github.mongobee</groupId>
+    <groupId>com.github</groupId>
     <artifactId>mongobee</artifactId>
     <version>0.14</version>
 
@@ -41,7 +41,7 @@
       <repository>
         <id>bintray-dim777-maven-repo</id>
         <name>dim777-maven-repo</name>
-        <url>https://api.bintray.com/maven/dim777/maven-repo/mongobee-1/;publish=1</url>
+        <url>https://api.bintray.com/maven/dim777/maven-repo/com.github.mongobee/;publish=1</url>
       </repository>
     </distributionManagement>
 
