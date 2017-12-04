@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <settings xsi:schemaLocation='http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd'
           xmlns='http://maven.apache.org/SETTINGS/1.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
-
+  <servers>
+    <server>
+      <id>bintray-dim777-maven-repo</id>
+      <username>dim777</username>
+      <password>21183c187eeb29b277103a3f34ca4c05089bf250</password>
+    </server>
+  </servers>
   <profiles>
     <profile>
       <repositories>
@@ -9,9 +15,9 @@
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
-          <id>bintray-dim777-maven-repo</id>
+          <id>central</id>
           <name>bintray</name>
-          <url>https://dl.bintray.com/dim777/maven-repo</url>
+          <url>http://jcenter.bintray.com</url>
         </repository>
       </repositories>
       <pluginRepositories>
@@ -19,9 +25,9 @@
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
-          <id>bintray-dim777-maven-repo</id>
+          <id>central</id>
           <name>bintray-plugins</name>
-          <url>https://dl.bintray.com/dim777/maven-repo</url>
+          <url>http://jcenter.bintray.com</url>
         </pluginRepository>
       </pluginRepositories>
       <id>bintray</id>
@@ -30,11 +36,4 @@
   <activeProfiles>
     <activeProfile>bintray</activeProfile>
   </activeProfiles>
-  <servers>
-    <server>
-      <id>bintray-dim777-mongobee</id>
-      <username>dim777</username>
-      <password>21183c187eeb29b277103a3f34ca4c05089bf250</password>
-    </server>
-  </servers>
 </settings>
