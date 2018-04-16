@@ -12,6 +12,7 @@ import org.jongo.Jongo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.context.ApplicationContext;
 import org.springframework.core.env.Environment;
 import org.springframework.data.mongodb.core.MongoTemplate;
 
